@@ -1,6 +1,7 @@
 # NahSlideMenu
 allprojects {
-		repositories {
+
+	repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
