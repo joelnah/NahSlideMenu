@@ -1,4 +1,4 @@
-package nah.prayer.nahslidemenudrawer;
+package nah.prayer.library;
 
 /**
  * Created by Nah on 2017-02-17.
