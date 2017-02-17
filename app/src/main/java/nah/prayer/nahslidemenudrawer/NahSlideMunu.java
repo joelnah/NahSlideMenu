@@ -218,14 +218,14 @@ public class NahSlideMunu extends FrameLayout {
     }
 
     public View setLeftBehindContentView(int leftBehindLayout) {
-        View content = ((LayoutInflater)this.getContext().getSystemService("layout_inflater")).inflate(leftBehindLayout, this.mLeftBehindBase);
+        View content = ((LayoutInflater)this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(leftBehindLayout, this.mLeftBehindBase);
         this.mLeftPaddingRect = new Rect(content.getPaddingLeft(), content.getPaddingTop(), content.getPaddingRight(), content.getPaddingBottom());
         this.mLeftBehindView = content;
         return content;
     }
 
     public View setRightBehindContentView(int rightBehindLayout) {
-        View content = ((LayoutInflater)this.getContext().getSystemService("layout_inflater")).inflate(rightBehindLayout, this.mRightBehindBase);
+        View content = ((LayoutInflater)this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(rightBehindLayout, this.mRightBehindBase);
         this.mRightPaddingRect = new Rect(content.getPaddingLeft(), content.getPaddingTop(), content.getPaddingRight(), content.getPaddingBottom());
         this.mRightBehindView = content;
         return content;
