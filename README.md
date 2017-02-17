@@ -8,5 +8,5 @@ allprojects {
   
   
   dependencies {
-	        compile 'com.github.joelnah:NahSlideMenu:1.0.3'
+	        compile 'com.github.joelnah:NahSlideMenu:1.0.5'
 	}
